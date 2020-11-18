@@ -1,0 +1,756 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,300|Merriweather:400");
+.anima-component-wrapper a,
+.anima-screen a {
+    text-decoration: none;
+    display: contents;
+}
+
+.anima-full-width-a {
+    width: 100%;
+}
+
+.anima-full-height-a {
+    height: 100%;
+}
+
+.anima-screen textarea:focus,
+.anima-screen input:focus {
+    outline: none;
+}
+
+.anima-screen *,
+.anima-component-wrapper * {
+    box-sizing: border-box;
+}
+
+.anima-screen div {
+    -webkit-text-size-adjust: none;
+}
+
+.anima-container-center-vertical,
+.anima-container-center-horizontal {
+    pointer-events: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+.anima-container-center-vertical {
+    align-items: center;
+    height: 100%;
+}
+
+.anima-container-center-horizontal {
+    justify-content: center;
+    width: 100%;
+}
+
+.anima-container-center-vertical>*,
+.anima-container-center-horizontal>* {
+    pointer-events: auto;
+    flex-shrink: 0;
+}
+
+.anima-component-wrapper,
+.anima-screen {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    word-break: break-word;
+}
+
+.anima-auto-animated div {
+    opacity: 0;
+    position: absolute;
+    --anima-z-index: -1;
+}
+
+.anima-auto-animated .anima-container-center-vertical,
+.anima-auto-animated .anima-container-center-horizontal {
+    opacity: 1;
+}
+
+.anima-overlay {
+    position: absolute;
+    opacity: 0;
+    display: none;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.anima-animate-appear {
+    opacity: 0;
+    display: block;
+    animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+
+.anima-animate-disappear {
+    opacity: 1;
+    display: block;
+    animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+
+.anima-animate-nodelay {
+    animation-delay: 0s;
+}
+
+@keyframes anima-reveal {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.align-self-flex-start {
+    align-self: flex-start;
+}
+
+.align-self-flex-end {
+    align-self: flex-end;
+}
+
+.align-self-flex-center {
+    align-self: center;
+}
+
+.anima-valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.anima-valign-text-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.anima-component-wrapper,
+.anima-component-wrapper * {
+    pointer-events: none;
+}
+
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+    pointer-events: auto;
+}
+
+.anima-hidden,
+.anima-hidden * {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+    pointer-events: auto;
+    visibility: visible;
+}
+
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+    visibility: hidden !important;
+}
+
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1279px) {
+    .privateaccessdesktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .privateaccessmobile {
+        display: none;
+    }
+}
+
+
+/* screen - privateaccessdesktop */
+
+.font-class-1 {
+    font-family: 'Lato', Helvetica, Arial, serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.font-class-2 {
+    font-family: 'Lato', Helvetica, Arial, serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.privateaccessdesktop {
+    background-color: rgba(255, 255, 255, 1.0);
+    height: 100vh;
+    margin: 0px;
+    min-height: 850px;
+    min-width: 1280px;
+    position: relative;
+    width: 100%;
+}
+
+.privateaccessdesktop .a-subtitle-6En43k {
+    background-color: transparent;
+    height: 86px;
+    margin: 0;
+    position: relative;
+    width: 442px;
+}
+
+.privateaccessdesktop .a-text-fie-focus-copy-o5Lsx0 {
+    background-color: transparent;
+    background-image: url(../../../assets/img/privateaccessdesktop-container-00349FCA-8435-40B6-AE42-14308B9CB221.png);
+    background-size: 100% 100%;
+    height: 56px;
+    margin: 0;
+    position: relative;
+    width: 350px;
+}
+
+.privateaccessdesktop .a-text-field-focus-o5Lsx0 {
+    background-color: transparent;
+    background-image: url(../../../assets/img/privateaccessdesktop-container-00349FCA-8435-40B6-AE42-14308B9CB221.png);
+    background-size: 100% 100%;
+    height: 56px;
+    margin: 20px 0 0 0;
+    position: relative;
+    width: 350px;
+}
+
+.privateaccessdesktop .ah4-NFwxJV {
+    background-color: transparent;
+    color: var(--chicago);
+    font-family: 'Merriweather', Helvetica, Arial, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    left: -1px;
+    letter-spacing: 0.00px;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.privateaccessdesktop .background-C61RwL {
+    background-color: transparent;
+    height: 850px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 1280px;
+}
+
+.privateaccessdesktop .button-primary-o5Lsx0 {
+    background-color: rgba(134, 208, 203, 1.0);
+    border-radius: 28px;
+    height: 56px;
+    margin: 20px 0 0 0;
+    position: relative;
+    width: 290px;
+}
+
+.privateaccessdesktop .content-C61RwL {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: flex-start;
+    position: absolute;
+    top: 277px;
+    width: 442px;
+}
+
+.privateaccessdesktop .este-site--51-privado-o5Lsx0 {
+    background-color: transparent;
+    color: var(--chicago);
+    font-size: 12px;
+    height: auto;
+    line-height: 16px;
+    margin: 20px 0 0 0;
+    position: relative;
+    text-align: left;
+    width: 350px;
+}
+
+.privateaccessdesktop .label-button-aKjthC {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 1.0);
+    font-family: 'Lato', Helvetica, Arial, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    height: auto;
+    left: 119px;
+    letter-spacing: 0.00px;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    top: 13px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.privateaccessdesktop .logo-white-C61RwL {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: flex-start;
+    position: absolute;
+    top: 167px;
+    width: 120px;
+}
+
+.privateaccessdesktop .logo-white-kqVDal {
+    background-color: transparent;
+    height: 70px;
+    margin: 0;
+    position: relative;
+    width: 120px;
+}
+
+.privateaccessdesktop .padding-group-2-acdOm6 {
+    background-color: transparent;
+    height: 24px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 442px;
+}
+
+.privateaccessdesktop .path-XptlID {
+    background-color: transparent;
+    height: 9px;
+    left: 39px;
+    position: absolute;
+    top: 14px;
+    width: 8px;
+}
+
+.privateaccessdesktop .placeholder-3I6zGu {
+    background-color: transparent;
+    color: var(--star-dust);
+    font-size: 12px;
+    height: auto;
+    left: 16px;
+    line-height: 12px;
+    position: absolute;
+    text-align: left;
+    top: 12px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.privateaccessdesktop .placeholder-EHtP8X {
+    background-color: transparent;
+    color: var(--star-dust);
+    font-size: 12px;
+    height: auto;
+    left: 16px;
+    line-height: 12px;
+    position: absolute;
+    text-align: left;
+    top: 12px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.privateaccessdesktop .placeholder-FXxIF6 {
+    background-color: transparent;
+    color: var(--chicago);
+    font-size: 14px;
+    height: auto;
+    left: 16px;
+    line-height: 17px;
+    position: absolute;
+    text-align: left;
+    top: 28px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.privateaccessdesktop .placeholder-eMYIHA {
+    background-color: transparent;
+    color: var(--star-dust);
+    font-size: 14px;
+    height: auto;
+    left: 16px;
+    line-height: 17px;
+    position: absolute;
+    text-align: left;
+    top: 28px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.privateaccessdesktop .rectangle-acdOm6 {
+    background-color: rgba(226, 100, 90, 1.0);
+    border-radius: 1px;
+    height: 2px;
+    left: 161px;
+    position: absolute;
+    top: 84px;
+    width: 120px;
+}
+
+.privateaccessdesktop .shape-Eectqn {
+    background-color: transparent;
+    height: 27px;
+    left: 34px;
+    position: absolute;
+    top: 28px;
+    width: 28px;
+}
+
+.privateaccessdesktop .shape-XptlID {
+    background-color: transparent;
+    height: 27px;
+    left: 49px;
+    position: absolute;
+    top: 0px;
+    width: 29px;
+}
+
+.privateaccessdesktop .shape-aeZUbZ {
+    background-color: transparent;
+    height: 45px;
+    left: 0px;
+    position: absolute;
+    top: 24px;
+    width: 39px;
+}
+
+.privateaccessdesktop .shape-sxiShI {
+    background-color: transparent;
+    height: 25px;
+    left: 59px;
+    position: absolute;
+    top: 28px;
+    width: 36px;
+}
+
+.privateaccessdesktop .shape-x4x3mF {
+    background-color: transparent;
+    height: 24px;
+    left: 90px;
+    position: absolute;
+    top: 29px;
+    width: 30px;
+}
+
+.privateaccessdesktop .stacked-group-6En43k {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: flex-start;
+    margin: 60px 0 0 0;
+    position: relative;
+    width: 350px;
+}
+
+.privateaccessdesktop .stacked-group-xUsx1L {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: flex-start;
+    margin: 0;
+    position: relative;
+    width: 442px;
+}
+
+ :root {
+    --chicago: rgba(88, 88, 88, 1.0);
+    --star-dust: rgba(155, 154, 154, 1.0);
+    --white: rgba(255, 255, 255, 1.0);
+}
+
+
+/* screen - privateaccessmobile */
+
+.font-class-1 {
+    font-family: 'Lato', Helvetica, Arial, serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.font-class-2 {
+    font-family: 'Lato', Helvetica, Arial, serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.privateaccessmobile {
+    background-color: rgba(255, 255, 255, 1.0);
+    height: 100vh;
+    margin: 0px;
+    min-height: 568px;
+    min-width: 320px;
+    position: relative;
+    width: 100%;
+}
+
+.privateaccessmobile .a-padding-frame-fTHjfJ {
+    background-color: rgba(134, 208, 203, 1.0);
+    border-radius: 23px;
+    height: 46px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 240px;
+}
+
+.privateaccessmobile .a-text-fie-focus-copy-SHDHHB {
+    background-color: transparent;
+    background-image: url(../../../assets/img/privateaccessmobile-container-393ECE4D-DF02-4F54-A2CD-A3424D00E507@2x.png);
+    background-size: 100% 100%;
+    height: 47px;
+    margin: 0;
+    position: relative;
+    width: 290px;
+}
+
+.privateaccessmobile .a-text-field-focus-SHDHHB {
+    background-color: transparent;
+    background-image: url(../../../assets/img/privateaccessmobile-container-393ECE4D-DF02-4F54-A2CD-A3424D00E507@2x.png);
+    background-size: 100% 100%;
+    height: 47px;
+    margin: 20px 0 0 0;
+    position: relative;
+    width: 290px;
+}
+
+.privateaccessmobile .ah4-C61RwL {
+    background-color: transparent;
+    color: var(--chicago);
+    font-family: 'Merriweather', Helvetica, Arial, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    letter-spacing: 0.00px;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 146px;
+    width: auto;
+}
+
+.privateaccessmobile .button-primary-SHDHHB {
+    background-color: transparent;
+    height: 47px;
+    margin: 20px 0 0 0;
+    position: relative;
+    width: 241px;
+}
+
+.privateaccessmobile .este-site--51-privado-SHDHHB {
+    background-color: transparent;
+    color: var(--chicago);
+    font-size: 9px;
+    height: auto;
+    line-height: 13.3px;
+    margin: 20px 0 0 0;
+    position: relative;
+    text-align: left;
+    width: 290px;
+}
+
+.privateaccessmobile .label-button-fTHjfJ {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 1.0);
+    font-family: 'Lato', Helvetica, Arial, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    height: auto;
+    left: 97px;
+    letter-spacing: 0.00px;
+    line-height: 24.9px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.privateaccessmobile .logo-white-C61RwL {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: flex-start;
+    position: absolute;
+    top: 64px;
+    width: 100px;
+}
+
+.privateaccessmobile .logo-white-kqVDal {
+    background-color: transparent;
+    height: 58px;
+    margin: 0;
+    position: relative;
+    width: 100px;
+}
+
+.privateaccessmobile .path-XptlID {
+    background-color: transparent;
+    height: 8px;
+    left: 33px;
+    position: absolute;
+    top: 12px;
+    width: 7px;
+}
+
+.privateaccessmobile .placeholder-KvfIof {
+    background-color: transparent;
+    color: var(--star-dust);
+    font-size: 11px;
+    height: auto;
+    left: 16px;
+    line-height: 13px;
+    position: absolute;
+    text-align: left;
+    top: 23px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.privateaccessmobile .placeholder-e1XhMV {
+    background-color: transparent;
+    color: var(--chicago);
+    font-size: 11px;
+    height: auto;
+    left: 16px;
+    line-height: 13px;
+    position: absolute;
+    text-align: left;
+    top: 23px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.privateaccessmobile .placeholder-oYA4xn {
+    background-color: transparent;
+    color: var(--star-dust);
+    font-size: 9px;
+    height: auto;
+    left: 16px;
+    line-height: 9.9px;
+    position: absolute;
+    text-align: left;
+    top: 10px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.privateaccessmobile .placeholder-wCV6X2 {
+    background-color: transparent;
+    color: var(--star-dust);
+    font-size: 9px;
+    height: auto;
+    left: 16px;
+    line-height: 9.9px;
+    position: absolute;
+    text-align: left;
+    top: 10px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.privateaccessmobile .rectangle-C61RwL {
+    background-color: rgba(226, 100, 90, 1.0);
+    border-radius: 1px;
+    height: 2px;
+    position: absolute;
+    top: 234px;
+    width: 100px;
+}
+
+.privateaccessmobile .shape-Eectqn {
+    background-color: transparent;
+    height: 22px;
+    left: 29px;
+    position: absolute;
+    top: 23px;
+    width: 23px;
+}
+
+.privateaccessmobile .shape-XptlID {
+    background-color: transparent;
+    height: 22px;
+    left: 41px;
+    position: absolute;
+    top: 0px;
+    width: 24px;
+}
+
+.privateaccessmobile .shape-aeZUbZ {
+    background-color: transparent;
+    height: 37px;
+    left: 0px;
+    position: absolute;
+    top: 20px;
+    width: 33px;
+}
+
+.privateaccessmobile .shape-sxiShI {
+    background-color: transparent;
+    height: 21px;
+    left: 49px;
+    position: absolute;
+    top: 24px;
+    width: 30px;
+}
+
+.privateaccessmobile .shape-x4x3mF {
+    background-color: transparent;
+    height: 20px;
+    left: 75px;
+    position: absolute;
+    top: 24px;
+    width: 25px;
+}
+
+.privateaccessmobile .stacked-group-C61RwL {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: flex-start;
+    position: absolute;
+    top: 276px;
+    width: 290px;
+}
+
+ :root {
+    --chicago: rgba(88, 88, 88, 1.0);
+    --star-dust: rgba(155, 154, 154, 1.0);
+    --white: rgba(255, 255, 255, 1.0);
+}

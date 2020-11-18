@@ -1,0 +1,716 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:400,700");
+.anima-component-wrapper a,
+.anima-screen a {
+    text-decoration: none;
+    display: contents;
+}
+
+.anima-full-width-a {
+    width: 100%;
+}
+
+.anima-full-height-a {
+    height: 100%;
+}
+
+.anima-screen textarea:focus,
+.anima-screen input:focus {
+    outline: none;
+}
+
+.anima-screen *,
+.anima-component-wrapper * {
+    box-sizing: border-box;
+}
+
+.anima-screen div {
+    -webkit-text-size-adjust: none;
+}
+
+.anima-container-center-vertical,
+.anima-container-center-horizontal {
+    pointer-events: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+.anima-container-center-vertical {
+    align-items: center;
+    height: 100%;
+}
+
+.anima-container-center-horizontal {
+    justify-content: center;
+    width: 100%;
+}
+
+.anima-container-center-vertical>*,
+.anima-container-center-horizontal>* {
+    pointer-events: auto;
+    flex-shrink: 0;
+}
+
+.anima-component-wrapper,
+.anima-screen {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    word-break: break-word;
+}
+
+.anima-auto-animated div {
+    opacity: 0;
+    position: absolute;
+    --anima-z-index: -1;
+}
+
+.anima-auto-animated .anima-container-center-vertical,
+.anima-auto-animated .anima-container-center-horizontal {
+    opacity: 1;
+}
+
+.anima-overlay {
+    position: absolute;
+    opacity: 0;
+    display: none;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.anima-animate-appear {
+    opacity: 0;
+    display: block;
+    animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+
+.anima-animate-disappear {
+    opacity: 1;
+    display: block;
+    animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+
+.anima-animate-nodelay {
+    animation-delay: 0s;
+}
+
+@keyframes anima-reveal {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.align-self-flex-start {
+    align-self: flex-start;
+}
+
+.align-self-flex-end {
+    align-self: flex-end;
+}
+
+.align-self-flex-center {
+    align-self: center;
+}
+
+.anima-valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.anima-valign-text-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.anima-component-wrapper,
+.anima-component-wrapper * {
+    pointer-events: none;
+}
+
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+    pointer-events: auto;
+}
+
+.anima-hidden,
+.anima-hidden * {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+    pointer-events: auto;
+    visibility: visible;
+}
+
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+    visibility: hidden !important;
+}
+
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+    cursor: pointer;
+}
+
+.dashboarddesktop {
+    background-color: rgba(255, 255, 255, 1.0);
+    height: 850px;
+    position: relative;
+    width: 1280px;
+}
+
+.dashboarddesktop .abril-2YVpW7 {
+    background-color: transparent;
+    font-size: 16px;
+    height: auto;
+    left: 0px;
+    line-height: 19px;
+    position: absolute;
+    text-align: left;
+    top: 220px;
+    width: 53px;
+}
+
+.dashboarddesktop .ah4-BLt5hU {
+    background-color: transparent;
+    color: var(--chicago);
+    font-family: 'Merriweather', Helvetica, Arial, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    height: auto;
+    left: 30px;
+    letter-spacing: 0.00px;
+    line-height: 24px;
+    position: absolute;
+    text-align: left;
+    top: 17px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.dashboarddesktop .coluna-1-select-C61RwL {
+    background-color: transparent;
+    height: 48px;
+    left: 400px;
+    position: absolute;
+    top: 180px;
+    width: 144px;
+}
+
+.dashboarddesktop .coluna-2-C61RwL {
+    background-color: transparent;
+    height: 19px;
+    left: 592px;
+    position: absolute;
+    top: 180px;
+    width: 97px;
+}
+
+.dashboarddesktop .coluna-3-C61RwL {
+    background-color: transparent;
+    height: 19px;
+    left: 745px;
+    position: absolute;
+    top: 180px;
+    width: 50px;
+}
+
+.dashboarddesktop .dados-financeiros-KOnsG6 {
+    background-color: transparent;
+    font-size: 16px;
+    height: auto;
+    left: 8px;
+    line-height: 19px;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.dashboarddesktop .data-pps8Cx {
+    background-color: transparent;
+    font-size: 18px;
+    height: auto;
+    left: 52px;
+    line-height: 22px;
+    position: absolute;
+    text-align: left;
+    top: 139px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.dashboarddesktop .exit-button-C61RwL {
+    background-color: transparent;
+    border: 1px solid rgba(155, 154, 154, 1.0);
+    border-radius: 22px;
+    height: 46px;
+    left: 134px;
+    position: absolute;
+    top: 660px;
+    width: 157px;
+}
+
+.dashboarddesktop .filteralt-24px-pps8Cx {
+    background-color: transparent;
+    background-image: url(../../../assets/img/dashboarddesktop-shape-97E8781F-73ED-44F7-B123-1A170502E49D@2x.png);
+    background-size: 100% 100%;
+    height: 32px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 32px;
+}
+
+.dashboarddesktop .filtro-C61RwL {
+    background-color: transparent;
+    height: 236px;
+    left: 86px;
+    position: absolute;
+    top: 319px;
+    width: 163px;
+}
+
+.dashboarddesktop .filtro-pps8Cx {
+    background-color: transparent;
+    color: var(--chicago);
+    font-family: 'Merriweather', Helvetica, Arial, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    left: 52px;
+    letter-spacing: 0.00px;
+    line-height: 31px;
+    position: absolute;
+    text-align: left;
+    top: 1px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.dashboarddesktop .fornecedores-pps8Cx {
+    background-color: transparent;
+    color: var(--chicago);
+    font-size: 18px;
+    height: auto;
+    left: 53px;
+    line-height: 22px;
+    position: absolute;
+    text-align: left;
+    top: 211px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.dashboarddesktop .fornecedores-vA6nB5 {
+    background-color: transparent;
+    color: var(--chicago);
+    font-size: 16px;
+    height: auto;
+    left: 0px;
+    line-height: 19px;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.dashboarddesktop .grafico-C61RwL {
+    background-color: transparent;
+    height: 260px;
+    left: 392px;
+    position: absolute;
+    top: 347px;
+    width: 806px;
+}
+
+.dashboarddesktop .group-713-pps8Cx {
+    background-color: transparent;
+    height: 32px;
+    left: 0px;
+    position: absolute;
+    top: 204px;
+    width: 32px;
+}
+
+.dashboarddesktop .group-BLt5hU {
+    background-color: transparent;
+    height: 58px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 6px;
+}
+
+.dashboarddesktop .group-pps8Cx {
+    background-color: transparent;
+    height: 32px;
+    left: 0px;
+    position: absolute;
+    top: 132px;
+    width: 32px;
+}
+
+.dashboarddesktop .julho-2YVpW7 {
+    background-color: transparent;
+    color: var(--chicago);
+    font-size: 16px;
+    height: auto;
+    left: 694px;
+    line-height: 19px;
+    position: absolute;
+    text-align: left;
+    top: 220px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.dashboarddesktop .junho-2YVpW7 {
+    background-color: transparent;
+    color: var(--chicago);
+    font-size: 16px;
+    height: auto;
+    left: 522px;
+    line-height: 19px;
+    position: absolute;
+    text-align: left;
+    top: 220px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.dashboarddesktop .line-2YVpW7 {
+    background-color: transparent;
+    height: 107px;
+    left: 14px;
+    position: absolute;
+    top: 56px;
+    width: 130px;
+}
+
+.dashboarddesktop .line-UmxJP0 {
+    background-color: transparent;
+    height: 61px;
+    left: 713px;
+    position: absolute;
+    top: 47px;
+    width: 93px;
+}
+
+.dashboarddesktop .line-copy-2-2YVpW7 {
+    background-color: transparent;
+    height: 163px;
+    left: 301px;
+    position: absolute;
+    top: 0px;
+    width: 255px;
+}
+
+.dashboarddesktop .line-copy-2YVpW7 {
+    background-color: transparent;
+    height: 107px;
+    left: 139px;
+    position: absolute;
+    top: 56px;
+    width: 167px;
+}
+
+.dashboarddesktop .line-copy-3-2YVpW7 {
+    background-color: transparent;
+    height: 107px;
+    left: 551px;
+    position: absolute;
+    top: 0px;
+    width: 167px;
+}
+
+.dashboarddesktop .line-horizontal-C61RwL {
+    background-color: transparent;
+    height: 1px;
+    left: -1px;
+    position: absolute;
+    top: 225px;
+    width: 1323px;
+}
+
+.dashboarddesktop .line-vertical-C61RwL {
+    background-color: transparent;
+    height: 925px;
+    left: 340px;
+    position: absolute;
+    top: -1px;
+    width: 1px;
+}
+
+.dashboarddesktop .logo-white-C61RwL {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: flex-start;
+    left: 154px;
+    position: absolute;
+    top: 78px;
+    width: 118px;
+}
+
+.dashboarddesktop .logo-white-kqVDal {
+    background-color: transparent;
+    height: 70px;
+    margin: 0;
+    position: relative;
+    width: 118px;
+}
+
+.dashboarddesktop .maio-2YVpW7 {
+    background-color: transparent;
+    color: var(--chicago);
+    font-size: 16px;
+    height: auto;
+    left: 294px;
+    line-height: 19px;
+    position: absolute;
+    text-align: left;
+    top: 220px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.dashboarddesktop .noivos-WMkRLZ {
+    background-color: transparent;
+    color: var(--chicago);
+    font-size: 16px;
+    height: auto;
+    left: 0px;
+    line-height: 19px;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.dashboarddesktop .path-60TO7A {
+    background-color: transparent;
+    height: 3px;
+    left: 5px;
+    position: absolute;
+    top: 16px;
+    width: 3px;
+}
+
+.dashboarddesktop .path-BpcFXv {
+    background-color: transparent;
+    height: 31px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 32px;
+}
+
+.dashboarddesktop .path-CgxkF8 {
+    background-color: transparent;
+    height: 3px;
+    left: 24px;
+    position: absolute;
+    top: 10px;
+    width: 3px;
+}
+
+.dashboarddesktop .path-LArIg1 {
+    background-color: transparent;
+    height: 3px;
+    left: 5px;
+    position: absolute;
+    top: 22px;
+    width: 3px;
+}
+
+.dashboarddesktop .path-NzJzqT {
+    background-color: transparent;
+    height: 3px;
+    left: 11px;
+    position: absolute;
+    top: 16px;
+    width: 3px;
+}
+
+.dashboarddesktop .path-XptlID {
+    background-color: transparent;
+    height: 9px;
+    left: 39px;
+    position: absolute;
+    top: 14px;
+    width: 8px;
+}
+
+.dashboarddesktop .path-YddN1g {
+    background-color: transparent;
+    height: 8px;
+    left: 17px;
+    position: absolute;
+    top: 16px;
+    width: 10px;
+}
+
+.dashboarddesktop .path-hOkYHz {
+    background-color: transparent;
+    height: 3px;
+    left: 5px;
+    position: absolute;
+    top: 10px;
+    width: 3px;
+}
+
+.dashboarddesktop .path-mmjDgw {
+    background-color: transparent;
+    height: 3px;
+    left: 11px;
+    position: absolute;
+    top: 22px;
+    width: 3px;
+}
+
+.dashboarddesktop .path-n95Ifc {
+    background-color: transparent;
+    height: 3px;
+    left: 11px;
+    position: absolute;
+    top: 10px;
+    width: 3px;
+}
+
+.dashboarddesktop .path-yIR5x1 {
+    background-color: transparent;
+    height: 3px;
+    left: 17px;
+    position: absolute;
+    top: 10px;
+    width: 3px;
+}
+
+.dashboarddesktop .rectangle-ZIjFRu {
+    background-color: rgba(226, 100, 90, 1.0);
+    border-radius: 3px;
+    height: 6px;
+    left: -26px;
+    position: relative;
+    top: 26px;
+    transform: rotate(90deg);
+    width: 58px;
+}
+
+.dashboarddesktop .sair-C61RwL {
+    background-color: transparent;
+    color: rgba(155, 154, 154, 1.0);
+    font-size: 16px;
+    height: auto;
+    left: 195px;
+    line-height: 19px;
+    position: absolute;
+    text-align: left;
+    top: 673px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.dashboarddesktop .select-KOnsG6 {
+    background-color: rgba(134, 208, 203, 1.0);
+    border-radius: 2.5px;
+    height: 5px;
+    left: 0px;
+    position: absolute;
+    top: 43px;
+    width: 144px;
+}
+
+.dashboarddesktop .shape-Eectqn {
+    background-color: transparent;
+    height: 27px;
+    left: 34px;
+    position: absolute;
+    top: 28px;
+    width: 28px;
+}
+
+.dashboarddesktop .shape-XptlID {
+    background-color: transparent;
+    height: 27px;
+    left: 49px;
+    position: absolute;
+    top: 0px;
+    width: 28px;
+}
+
+.dashboarddesktop .shape-aeZUbZ {
+    background-color: transparent;
+    height: 45px;
+    left: 0px;
+    position: absolute;
+    top: 24px;
+    width: 39px;
+}
+
+.dashboarddesktop .shape-sxiShI {
+    background-color: transparent;
+    height: 25px;
+    left: 58px;
+    position: absolute;
+    top: 28px;
+    width: 36px;
+}
+
+.dashboarddesktop .shape-x4x3mF {
+    background-color: transparent;
+    height: 24px;
+    left: 88px;
+    position: absolute;
+    top: 29px;
+    width: 29px;
+}
+
+.dashboarddesktop .title-C61RwL {
+    background-color: transparent;
+    height: 58px;
+    left: 370px;
+    position: absolute;
+    top: 80px;
+    width: 161px;
+}
+
+.font-class-1 {
+    font-family: 'Lato', Helvetica, Arial, serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.font-class-2 {
+    color: var(--chicago);
+    font-family: 'Lato', Helvetica, Arial, serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+ :root {
+    --chicago: rgba(88, 88, 88, 1.0);
+}
